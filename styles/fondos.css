@@ -1,0 +1,44 @@
+.introduccion{
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    margin: 3vw 20vw;
+    padding: 10px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.grid-container3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:rgb(224, 222, 222);
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container3 > div{
+    width: 25vw;
+    height: 50vh;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.plano{
+    background-color: #146EBE;
+}
+
+.gradiente{
+    background: linear-gradient(to right,#146EBE,#6741D9);
+}
+
+.imagen{
+    background-image: url(https://i.pinimg.com/564x/13/44/4b/13444b88e0382c8dfbe600e213740438.jpg);
+    background-size: cover;
+}
+
+h5{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}

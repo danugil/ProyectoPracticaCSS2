@@ -1,0 +1,48 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(224, 222, 222);
+    margin: 0;
+}
+
+.navbar{
+    width: 100%;
+    background: white;
+    overflow: auto;
+    margin: 0;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.active{
+    font-weight: 800;
+    border-bottom: 1.5px solid #1e3050;
+}
+
+.navbar a{
+    float: left;
+    padding: 15px;
+    color: #1e3050;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    font-weight: 800;
+}
+
+i{
+    padding: 5px;
+}
+
+.responsive{
+    display: none;
+}
+
+@media(max-width:600px){
+    .responsive {
+        display: block;
+        float: right;
+        padding: 12px;
+    }
+    a{
+        display: none;
+    }
+}
